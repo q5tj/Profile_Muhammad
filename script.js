@@ -208,7 +208,7 @@ function init() {
       const formData = new FormData(contactForm);
       
 
-      const scriptURL = "https://script.google.com/macros/s/AKfycbyT_cJp-CFti7RhnA2XW5mR7z22ZJJaEw61DzMl4PICSxsttd-LH-QZz5V5qResVnIIpA/exec";
+      const scriptURL = "https://script.google.com/macros/s/AKfycbzLcwDQbSDkOdPh_kfRpMMEQRo5oHG5A3t7VO7_VSczNQiOjyXReldkYhSb2ARqf1wW2A/exec";
 
       const response = await fetch(scriptURL, {
         method: "POST",
